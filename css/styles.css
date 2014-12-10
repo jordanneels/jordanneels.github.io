@@ -1,6 +1,6 @@
-/* Home */
-		a:hover, {
-			color: #000;
+/* Basics: nav, h1, h2, h3, p, .footer, body, .container */
+		a:hover {
+			color: #C4634F;
 		}
 		
 		a:link {
@@ -19,58 +19,80 @@
 			background: url("../img/grey_wash_wall.png");
 		}
 
-		.container {
+		.indexcontainer {
+			background-color: #F6EEE4;
+			height: 620px;
+		}
+		.biocontainer {
+			background-color: #F6EEE4;
+			height: 620px;
+		}
+		.resumecontainer {
+			background-color: #F6EEE4;
+			height: 1250px;
+		}
+		.portfoliocontainer {
 			background-color: #F6EEE4;
 			height: 620px;
 		}
 
 		.footer {
-			margin-top: 140px;
-			margin-bottom: -100px;
 			text-align: center;
 			color: black;
 			font-family: 'Calibri';
 		}
 
-		/* Primary Header */
-		h1 {
-			color: #8C201F;
-			font-family: 'Cinzel Decorative', cursive;
-			font-size: 50px;
-			text-align: center;
-			margin-top: 50px;
-		}
 
-		/* Secondary Header */
+
+		h1 {
+			color: #8C201F;	
+			font-family: 'Cinzel Decorative', cursive;
+			font-weight: 700;
+			font-size: 36px;
+			text-align: center;
+			margin-bottom: 0px;
+		}
 
 		h2 {
+			font-family: 'Cinzel Decorative', serif; 
+			font-weight: 475px;
+			font-size: 20px;
 			color: #C4634F;
-			font-family: 'Droid Serif', serif;
-
-		}
+			margin-top: -10px;
+			margin-left: 5px;
+			margin-bottom: 10px;
+			}
 
 		h3 {
 			color: #767676;
 			font-family: 'Droid Serif', serif;
 			font-size: 16px;
-			font-weight: 300px;
 			margin-left: 20px;
-			margin-top: 30px;
-			margin-bottom: -10px;
 		}
 
-		/* Paragraph */
-
 		p {
-			color: #000;
+			color: #363636;
 			font-size: 16px;
 			font-family: 'Calibri', serif;
 			margin-bottom: -10px;
 		}
 
-		/* Picture */
+		h2, h3, p {
+			text-align: left;
+		}
 
-		.picture {
+		ul {
+			color: #363636;
+			text-decoration: none;
+			list-style: none;
+			font-family: 'Calibri';
+			font-size: 16px;
+			text-transform: uppercase;
+			text-align: left;
+		}
+/* Index */
+
+		.indexpicture {
 			margin: 10px;
 			border: 2px solid #021a40;
 			width: 190px;
@@ -79,77 +101,21 @@
 			margin-left: 100px;
 		}
 
-		h3, p {
-			margin-left: 10px;
-		}
-
-
+	
 /* Bio*/
 
-		/* Objective */
-	
-
-		body {
-			font-family: 'Calibri';
-			font-size: 16px;
-			margin-left: 20px;
+		.biopicture {
+			padding: 1px;
+			border: 2px solid #021a40;
+			width: 130px;
+			height: 160px;
+			margin-top: -1em;
+			margin-bottom: -.5em;
+			margin-left: 15px;
 		}
 
 		.contact {
-			list-style: none;
-			margin-left: 0px;
-		}
-
-		.education {
-			margin-left: 5px;
-		}
-
-	
-		h1 {
-			color: #8C201F;	
-			font-family: 'Cinzel Decorative', serif; 
-			font-weight: 700;
-			font-size: 40px;
-			text-align: center;
-			margin-bottom: 0px;
-		}
-
-		h2 {
-			font-family: 'Cinzel Decorative', serif; 
-			font-weight: 100px;
-			font-size: 25px;
-			color: #C4634F;
-			margin-top: 15px;
-			margin-left: 5px;
-			margin-bottom: 10px;
-		}
-
-		h3 {
-			color: #767676;
-			font-family: 'Droid Serif', serif;
-			font-size: 16px;
-			font-weight: 300px;
-			margin-left: 20px;
-		}
-
-		h4 {
-			font-family: 'Cinzel Decorative', serif; font-weight: 400;
-			color: black;
-			font-size: 16px;
-			margin-top: 0em;
-			margin-bottom: -.75em;
-			margin-left: 10px;
-			text-transform: uppercase;
-		}
-
-		img {
-			padding: 1px;
-			border: 2px solid #021a40;
-			width: 150px;
-			height: 200px;
-			margin-top: -1em;
-			margin-bottom: -.5em;
-			margin-left: 10px;
+			text-align: left;
 		}
 
 		.major_minor {
@@ -169,17 +135,6 @@
 			}
 		}
 
-		.nav_top {
-			color: #132139;
-			margin-bottom: -25px;
-			text-align: right;
-		}
-
-		p {
-			color: #132139;
-			margin-left: 20px;
-		}
-
 		.panel {
 			color: #132139;
 			font-size: 16px;
@@ -187,87 +142,19 @@
 			margin-left: 20px;
 		}
 
-		.index {
-			color: #BB4D3E;
-		}
-
-		ul li {
-			color: #363636;
-			text-decoration: none;
-			list-style: none;
-			margin-left: -15px;
-		}
-
 /* Resume */
-
-		/* Objective */
-	
-		body {
-			font-family: 'Calibri';
-			color: #363636;
-			background-color: #132139;
-			font-size: 16px;
-			margin-left: 20px;
-			background: url("../img/grey_wash_wall.png");
-		}
 
 		.contact {
 			list-style: none;
 			margin-left: 0px;
+			text-align: left;
 		}
 
 		.education {
-			margin-left: 5px;
+			color: #363636;
+			background-color: yellow;
 		}
 
-	
-		h1 {
-			color: #8C201F;	
-			font-family: 'Cinzel Decorative', cursive;
-			font-weight: 700;
-			font-size: 36px;
-			text-align: center;
-			margin-bottom: 0px;
-		}
-
-		h2 {
-			font-family: 'Cinzel Decorative', serif; 
-			font-weight: 475px;
-			font-size: 20px;
-			color: #C4634F;
-			margin-top: -10px;
-			margin-left: 5px;
-			margin-bottom: 10px;
-		}
-
-		h3 {
-			color: #767676;
-			font-family: 'Droid Serif', serif;
-			font-size: 16px;
-			margin-left: 20px;
-		}
-
-		h4 {
-			font-family: 'Cinzel Decorative', serif; font-weight: 400;
-			color: black;
-			font-size: 16px;
-			margin-top: 0em;
-			margin-bottom: -.75em;
-			margin-left: 10px;
-			text-transform: uppercase;
-		}
-
-
-		img {
-			padding: 1px;
-			border: 2px solid #021a40;
-			border-radius: 40px;
-			width: 130px;
-			height: 160px;
-			margin-top: -1em;
-			margin-bottom: -.5em;
-			margin-left: 15px;
-		}
 
 		.major_minor {
 			font-size: 23px;
@@ -288,11 +175,6 @@
 		}
 
 
-		p {
-			color: #132139;
-			margin-left: 20px;
-		}
-
 		.panel {
 			background-color: #696969;
 			border-radius: 30px;
@@ -304,25 +186,8 @@
 			width: 230px;
 		}
 
-		.index {
-			color: #BB4D3E;
-		}
-		.subtitle {
-			color: #fff;
-			text-align: center;
-			font-size: 14px;
-		}
-
-		ul li {
-			color: #363636;
-			text-decoration: none;
-			list-style: none;
-			margin-left: -20px;
-		}
-
 /* Portfolio */
 
-		/* Your Website Styles */
 		body {
 		  text-align: center;
 		  z-index: -1;
@@ -342,12 +207,6 @@
 		section {
 		  align: center;
 		  margin-left: 180px;
-		}
-
-		ul {
-		  list-style: none;
-		  text-decoration: none;
-		  margin-left: 300px;
 		}
 
 
