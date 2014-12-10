@@ -76,6 +76,7 @@
 			color: #767676;
 			font-family: 'Droid Serif', serif;
 			font-size: 16px;
+			margin-top: -5px;
 		}
 
 		p {
@@ -87,6 +88,21 @@
 
 		h2, h3, p, .major_minor {
 			text-align: left;
+		}
+
+		.indexp {
+			margin-top: -25px;
+		}
+
+		.indexh3 {
+			margin-top: 30px;
+		}
+
+		.references {
+			font-size: 14px;
+			text-align: center;
+			margin-top: 30px;
+			margin-left: 10px;
 		}
 
 		ul {
@@ -122,13 +138,6 @@
 			margin-left: 15px;
 		}
 
-		.major_minor {
-			font-size: 23px;
-			font-family: 'Cinzel Decorative', serif; 
-			font-weight: 400px;
-			color: #363636;
-		}
-
 		@media (max-width: 1680;) {
 			body {
 				font-size: 16px;
@@ -136,13 +145,6 @@
 			.container {
 				max-width: 80%;
 			}
-		}
-
-		.panel {
-			color: #132139;
-			font-size: 16px;
-			text-transform: uppercase;
-			margin-left: -20px;
 		}
 
 /* Resume */
