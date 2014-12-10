@@ -23,21 +23,21 @@
 
 		.indexcontainer {
 			background-color: #F6EEE4;
-			height: 580px;
+			height: 620px;
 			margin-left: 10%;
 			margin-right: 10%;
 		}
 
 		.biocontainer {
 			background-color: #F6EEE4;
-			height: 620px;
+			height: 650px;
 			margin-left: 10%;
 			margin-right: 10%;
 		}
 
 		.resumecontainer {
 			background-color: #F6EEE4;
-			height: 1200px;
+			height: 1150px;
 			margin-left: 10%;
 			margin-right: 10%;
 		}
@@ -54,6 +54,7 @@
 			color: black;
 			font-family: 'Calibri';
 			margin-top: -10px;
+			margin-bottom: 20px;
 		}
 
 
