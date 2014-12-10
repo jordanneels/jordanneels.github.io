@@ -3,7 +3,9 @@
 			color: #C4634F;
 		}
 		
-		a:link {
+		a[href$=".html"],
+		a[alt="Jordan's Email"],
+		a[href$="neels"] {
 			color: #7e7e7e;
 			font-size: 16px;
 			font-family: 'Droid Serif', serif;
@@ -98,11 +100,12 @@
 			margin-top: 30px;
 		}
 
-		.references {
+		#references {
 			font-size: 14px;
 			text-align: center;
 			margin-top: 30px;
-			margin-left: 10px;
+			margin-left: -10px;
+			text-decoration: none;
 		}
 
 		ul {
@@ -181,25 +184,13 @@
 
 /* Portfolio */
 
-		body {
-		  text-align: center;
-		  z-index: -1;
-		  height: 90px;
-		 
-		}
-
 		.controls {
-		  margin-left: 350px;
+		  margin-left: 320px;
 		}
 
 		.logo {
-		  margin-left: 200px;
+		  margin-left: 400px;
 		  margin-bottom: -30px;
-		}
-
-		section {
-		  align: center;
-		  margin-left: 180px;
 		}
 
 
@@ -225,13 +216,12 @@
 		  height: 500px;
 		  overflow: hidden;
 		  text-align: center;
-		  margin-left: 100px;
+		  margin-left: 30px;
 		}
 		.gallery .controls {
 		  position: absolute;
 		  bottom: -120px;
 		  width: 100%;
-		  text-align: center;
 		}
 
 		.gallery .controls img {
@@ -246,4 +236,5 @@
 		  text-align: center;
 		  text-decoration: none;
 		  transition: color .1s;
+
 		}
