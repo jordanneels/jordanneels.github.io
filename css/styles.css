@@ -44,7 +44,7 @@
 
 		.portfoliocontainer {
 			background-color: #F6EEE4;
-			height: 1100px;
+			height: 1000px;
 			margin-left: 10%;
 			margin-right: 10%;
 		}
@@ -188,11 +188,13 @@
 
 		.controls {
 		  margin-left: 320px;
+		  margin-top: -30px;
 		}
 
 		.logo {
-		  margin-left: 400px;
+		  margin-top: -40px;
 		  margin-bottom: -30px;
+		  margin-left: 400px;
 		}
 
 
