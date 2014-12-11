@@ -141,31 +141,7 @@
 			margin-left: 15px;
 		}
 
-		/* Desktop */
-
-
-		@media (max-width: 1680;) {
-			
-			.container {
-				margin: 0 auto;
-			}
-		}
-
-		/* Mobile */
-
-		@media screen and (min-width: 480;) {
-			body {
-				width: 80%;
-			}
-			
-			.container {
-				margin: 0 auto;
-			}
-
-			.indexpicture, .biopicture {
-				float: left;
-			}
-		}
+		
 
 /* Resume */
 
@@ -245,5 +221,59 @@
 		  text-align: center;
 		  text-decoration: none;
 		  transition: color .1s;
+
+		}
+
+		/* Laptop */
+
+
+		@media (max-width: 1245;) {
+			
+			.container {
+				height: 100%;
+			}
+
+			div.grid_3 {
+				width: 49%;
+			}
+
+			h2, h3, p {
+				text-align: center;
+			}
+		}
+
+		/* Tablet */
+
+
+		@media (max-width: 768;) {
+
+			.container {
+				height: 100%;
+			}
+
+			h2, h3, p {
+				text-align: center;
+			}
+
+		}
+
+		/* Mobile */
+
+		@media screen and (min-width: 480;) {
+			div.grid_1 {
+				width: 6.5%;
+			}
+			
+			.container {
+				height: 100%;
+			}
+
+			a[href$=".html"] {
+				float: none;
+			}
+
+			h2, h3, p {
+				text-align: center;
+			}
 
 		}
