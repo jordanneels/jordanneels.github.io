@@ -245,13 +245,13 @@
 		/* Tablet */
 
 
-		@media (max-width: 768;) {
+		@media screen and (max-width: 25008;) {
 
 			.container {
 				height: 100%;
 			}
 
-			h2, h3, p {
+			h2, h3 {
 				text-align: center;
 			}
 
