@@ -1,0 +1,81 @@
+/* Your Website Styles */
+body {
+  background: url("../img/grey_wash_wall.png");
+  text-align: center;
+  z-index: -1;
+  height: 900px;
+  width: 1000px;
+}
+
+.controls {
+  margin-left: 350px;
+}
+
+.footer {
+  text-align: center;
+  color: black;
+  padding-top: 30px;
+  padding-bottom: -100px;
+  padding-left: 350px;
+}
+
+.logo {
+  margin-left: 200px;
+}
+
+section {
+  align: center;
+  margin-left: 180px;
+}
+
+.subtitle {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+/* Gallery Stying */
+.gallery .control-button {
+  color: #ccc;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.gallery .control-button:hover {
+  color: white;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+
+.gallery .item {
+  height: 500px;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 100px;
+}
+.gallery .controls {
+  position: absolute;
+  bottom: -120px;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery .controls img {
+  border: 1px solid #000;
+  size: 200px;
+}
+
+.gallery .control-button {
+  display: inline-block;
+  margin: 0 .02em;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .1s;
+}
