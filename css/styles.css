@@ -236,6 +236,10 @@
 			div.grid_3 {
 				width: 49%;
 			}
+			
+			.logo {
+				margin-right: 40%;
+			}
 
 			h2, h3, p {
 				text-align: center;
